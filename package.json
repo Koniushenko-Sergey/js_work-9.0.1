@@ -1,0 +1,27 @@
+{
+  "name": "js_work-9.0.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /js_work-9.0.1",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koniushenko-Sergey/js_work-9.0.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koniushenko-Sergey/js_work-9.0.1/issues"
+  },
+  "homepage": "https://github.com/Koniushenko-Sergey/js_work-9.0.1#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.1"
+  }
+}
